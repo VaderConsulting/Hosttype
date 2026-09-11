@@ -1,6 +1,6 @@
 # Hosttype
 
-VB6 working copy of `Hosttype` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Hosttype. Output: `Hosttype.exe`.
+VB6 Determine Hosttype tool (`Hosttype.exe`) that takes a hostname plus optional username/password, connects via WNet, and classifies the remote OS (NT Workstation/Server 3.5x/4, Windows 2000, etc.) from host-type probes. UI caption "Determine Hosttype...".
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,7 +10,7 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `HostType` (`Hosttype.vbp`) | VB6 | WinForms exe | Hosttype |
+| `HostType` (`Hosttype.vbp`) | VB6 | WinForms exe | Remote host OS classification via WNet |
 
 ## How to open
 
@@ -20,6 +20,7 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 ## Requirements
 
 - Visual Basic 6.0 IDE
+- Network redirector / WNet (`mpr.dll`)
 
 ## Attribution and provenance
 
@@ -27,4 +28,4 @@ Working copy from Dave Robinson's OneDrive Historical Dev folder `VB/Old/Hosttyp
 
 ## License
 
-MIT © 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
+MIT (c) 2026 VaderConsulting for Dave Robinson's code. See `LICENSE`.
